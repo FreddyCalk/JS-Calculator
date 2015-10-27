@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+
+<div id="calculator">
+	<FORM NAME="Calc">
+		<TABLE>
+			<TR>
+				<TD>
+					<INPUT TYPE="button" NAME="clear" class="clear" VALUE="C" OnClick="Calc.Input.value = '';document.getElementById('google').remove();">
+					<INPUT TYPE="text" NAME="Input" class="screen">
+				</TD>
+			</TR>
+			<TR>
+				<TD>
+					<INPUT TYPE="button" NAME="seven" class="number" VALUE="7" OnClick="Calc.Input.value +='7'">
+					<INPUT TYPE="button" NAME="eight" class="number" VALUE="8" OnClick="Calc.Input.value +='8'">
+					<INPUT TYPE="button" NAME="nine"  class="number" VALUE="9" OnClick="Calc.Input.value +='9'">
+					<INPUT TYPE="button" NAME="times" class="operator" VALUE="x" OnClick="Calc.Input.value +='*'">
+
+					<INPUT TYPE="button" NAME="four"  class="number"  VALUE="4" OnClick="Calc.Input.value +='4'">
+					<INPUT TYPE="button" NAME="five"  class="number"  VALUE="5" OnClick="Calc.Input.value +='5'">
+					<INPUT TYPE="button" NAME="six"   class="number"   VALUE="6" OnClick="Calc.Input.value +='6'">
+					<INPUT TYPE="button" NAME="minus" class="operator" VALUE="-" OnClick="Calc.Input.value +='-'">
+
+					<INPUT TYPE="button" NAME="one"   class="number" VALUE="1" OnClick="Calc.Input.value +='1'">
+					<INPUT TYPE="button" NAME="two"   class="number" VALUE="2" OnClick="Calc.Input.value +='2'">
+					<INPUT TYPE="button" NAME="three" class="number" VALUE="3" OnClick="Calc.Input.value +='3'">
+					<INPUT TYPE="button" NAME="plus"  class="operator" VALUE="+" OnClick="Calc.Input.value +='+'">
+
+					<INPUT TYPE="button" NAME="zero"  class="number" VALUE="0" OnClick="Calc.Input.value +='0'">
+					<INPUT TYPE="button" NAME="DoIt"  class="the-eval" VALUE="=" OnClick="doIt(Calc.Input.value)">
+					<INPUT TYPE="button" NAME="div"   class="operator" VALUE="/" OnClick="Calc.Input.value +='/'">
+					<INPUT TYPE="button" NAME="div"   class="operator" VALUE="." OnClick="Calc.Input.value +='.'">
+				</TD>
+			</TR>
+		</TABLE>
+	</FORM>
+</div>
+
+<div id="meaning">
+	<img src="42.jpg">
+</div>
+<div id="boobies">
+	<img src="http://ravebabe.com/wp-content/uploads/2014/04/158300836.jpg">
+</div>
+<div id="scream">
+	<img src="http://epicjokes.com/wp-content/uploads/2014/08/keep-calm-and-love-number-13.png">
+</div>
+<div id="devil">
+	<img src="http://wp.production.patheos.com/blogs/lovejoyfeminism/files/2014/09/devil.jpg">
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
